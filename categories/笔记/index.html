@@ -6,27 +6,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="LIPER">
-    <title>判断终端类型 - LIPER</title>
+    <title>分类: 笔记 - LIPER</title>
     <meta name="author" content="Liper">
-    
-        <meta name="keywords" content="javascript">
     
     
         <link rel="icon" href="http://yoursite.com/assets/images/p9.ico">
     
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Liper","sameAs":["https://github.com/","mailto"],"image":"cover.jpg"},"articleBody":"\n1234567891011121314151617181920var u &#x3D; navigator.userAgent;var isAndroid &#x3D; u.indexOf(&#39;Android&#39;) &gt; -1 || u.indexOf(&#39;Adr&#39;) &gt; -1; &#x2F;&#x2F;android终端var isiOS &#x3D; !!u.match(&#x2F;\\(i[^;]+;( U;)? CPU.+Mac OS X&#x2F;); &#x2F;&#x2F;ios终端var agent &#x3D; navigator.userAgent.toLowerCase();var isMac &#x3D; &#x2F;macintosh|mac os x&#x2F;i.test(navigator.userAgent);if (agent.indexOf(&quot;win32&quot;) &gt;&#x3D; 0 || agent.indexOf(&quot;wow32&quot;) &gt;&#x3D; 0) &#123;console.log(Windows32)&#125;if (agent.indexOf(&quot;win64&quot;) &gt;&#x3D; 0 || agent.indexOf(&quot;wow64&quot;) &gt;&#x3D; 0) &#123;console.log(Windows63)&#125;if (isMac &amp;&amp; !u.match(&#x2F;AppleWebKit.*Mobile.*&#x2F;)) &#123;console.log(mac)&#125;if (isAndroid) &#123;console.log(android)&#125;if (isiOS &amp;&amp; !!u.match(&#x2F;AppleWebKit.*Mobile.*&#x2F;)) &#123;console.log(ios)&#125;","dateCreated":"2023-04-14T09:47:13+08:00","dateModified":"2020-08-18T21:47:35+08:00","datePublished":"2023-04-14T09:47:13+08:00","description":"处理兼容时常常需要判断终端类型","headline":"判断终端类型","image":["https://res.cloudinary.com/ddb5vwne6/image/upload/v1597758372/timg_fy8o3h.jpg","cover-v1.2.0.jpg"],"mainEntityOfPage":{"@type":"WebPage","@id":"http://yoursite.com/2023/04/14/js%E5%88%A4%E6%96%AD%E7%BB%88%E7%AB%AF%E7%B1%BB%E5%9E%8B/"},"publisher":{"@type":"Organization","name":"Liper","sameAs":["https://github.com/","mailto"],"image":"cover.jpg","logo":{"@type":"ImageObject","url":"cover.jpg"}},"url":"http://yoursite.com/2023/04/14/js%E5%88%A4%E6%96%AD%E7%BB%88%E7%AB%AF%E7%B1%BB%E5%9E%8B/","keywords":"js","thumbnailUrl":"https://res.cloudinary.com/ddb5vwne6/image/upload/v1597758372/timg_fy8o3h.jpg"}</script>
-    <meta name="description" content="处理兼容时常常需要判断终端类型">
-<meta property="og:type" content="blog">
-<meta property="og:title" content="判断终端类型">
-<meta property="og:url" content="http://yoursite.com/2023/04/14/js%E5%88%A4%E6%96%AD%E7%BB%88%E7%AB%AF%E7%B1%BB%E5%9E%8B/index.html">
+    <script type="application/ld+json">{}</script>
+    <meta property="og:type" content="blog">
+<meta property="og:title" content="LIPER">
+<meta property="og:url" content="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="LIPER">
-<meta property="og:description" content="处理兼容时常常需要判断终端类型">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-14T01:47:13.000Z">
-<meta property="article:modified_time" content="2020-08-18T13:47:35.311Z">
 <meta property="article:author" content="Liper">
-<meta property="article:tag" content="js">
 <meta name="twitter:card" content="summary">
     
     
@@ -36,12 +29,6 @@
         <meta property="og:image" content="http://yoursite.com/assets/images/cover.jpg"/>
     
     
-        <meta property="og:image" content="https://res.cloudinary.com/ddb5vwne6/image/upload/v1597758372/timg_fy8o3h.jpg"/>
-        <meta class="swiftype" name="image" data-type="enum" content="https://res.cloudinary.com/ddb5vwne6/image/upload/v1597758372/timg_fy8o3h.jpg"/>
-    
-    
-        <meta property="og:image" content="http://yoursite.com/2023/04/14/js%E5%88%A4%E6%96%AD%E7%BB%88%E7%AB%AF%E7%B1%BB%E5%9E%8B/cover-v1.2.0.jpg"/>
-        <meta class="swiftype" name="image" data-type="enum" content="http://yoursite.com/2023/04/14/js%E5%88%A4%E6%96%AD%E7%BB%88%E7%AB%AF%E7%B1%BB%E5%9E%8B/cover-v1.2.0.jpg"/>
     
     
     <!--STYLES-->
@@ -67,7 +54,7 @@
         
     
 
-<header id="header" data-behavior="4">
+<header id="header" data-behavior="1">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <div class="header-title">
         <a
@@ -100,7 +87,7 @@
         
     
 
-<nav id="sidebar" data-behavior="4">
+<nav id="sidebar" data-behavior="1">
     <div class="sidebar-container">
         
             <div class="sidebar-profile">
@@ -243,56 +230,83 @@
 </nav>
 
             
-        <div class="post-header-cover
-                    text-center
-                    post-header-cover--partial"
-             style="background-image:url('/2023/04/14/js%E5%88%A4%E6%96%AD%E7%BB%88%E7%AB%AF%E7%B1%BB%E5%9E%8B/cover-v1.2.0.jpg');"
-             data-behavior="4">
-            
-        </div>
-
-            <div id="main" data-behavior="4"
-                 class="hasCover
-                        hasCoverMetaOut
-                        hasCoverCaption">
+            <div id="main" data-behavior="1"
+                 class="
+                        hasCoverMetaIn
+                        ">
                 
-<article class="post">
-    
-        <span class="post-header-cover-caption caption">A beautiful sunrise</span>
+    <section class="postShorten-group main-content-wrap">
     
     
-        <div class="post-header main-content-wrap text-center">
+    <article class="postShorten postShorten--thumbnailimg-bottom">
+        <div class="postShorten-wrap">
+            
+            <div class="postShorten-header">
+                <h1 class="postShorten-title">
+                    
+                        <a
+                            class="link-unstyled"
+                            href="/2020/09/14/es6%E6%95%B4%E7%90%86/"
+                            aria-label=": es6整理"
+                        >
+                            es6整理
+                        </a>
+                    
+                </h1>
+                <div class="postShorten-meta">
+    <time datetime="2020-09-14T09:47:13+08:00">
+	
+		    9月 14, 2020
+    	
+    </time>
     
-        <h1 class="post-title">
-            判断终端类型
-        </h1>
-    
+        <span>发布在 </span>
+        
+    <a class="category-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a>
+
+
     
 </div>
 
-    
-    <div class="post-content markdown">
-        <div class="main-content-wrap">
-            <!--excerpt-->
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">var u &#x3D; navigator.userAgent;</span><br><span class="line">var isAndroid &#x3D; u.indexOf(&#39;Android&#39;) &gt; -1 || u.indexOf(&#39;Adr&#39;) &gt; -1; &#x2F;&#x2F;android终端</span><br><span class="line">var isiOS &#x3D; !!u.match(&#x2F;\(i[^;]+;( U;)? CPU.+Mac OS X&#x2F;); &#x2F;&#x2F;ios终端</span><br><span class="line">var agent &#x3D; navigator.userAgent.toLowerCase();</span><br><span class="line">var isMac &#x3D; &#x2F;macintosh|mac os x&#x2F;i.test(navigator.userAgent);</span><br><span class="line">if (agent.indexOf(&quot;win32&quot;) &gt;&#x3D; 0 || agent.indexOf(&quot;wow32&quot;) &gt;&#x3D; 0) &#123;</span><br><span class="line">console.log(Windows32)</span><br><span class="line">&#125;</span><br><span class="line">if (agent.indexOf(&quot;win64&quot;) &gt;&#x3D; 0 || agent.indexOf(&quot;wow64&quot;) &gt;&#x3D; 0) &#123;</span><br><span class="line">console.log(Windows63)</span><br><span class="line">&#125;</span><br><span class="line">if (isMac &amp;&amp; !u.match(&#x2F;AppleWebKit.*Mobile.*&#x2F;)) &#123;</span><br><span class="line">console.log(mac)</span><br><span class="line">&#125;</span><br><span class="line">if (isAndroid) &#123;</span><br><span class="line">console.log(android)</span><br><span class="line">&#125;</span><br><span class="line">if (isiOS &amp;&amp; !!u.match(&#x2F;AppleWebKit.*Mobile.*&#x2F;)) &#123;</span><br><span class="line">console.log(ios)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-            
-
-
-        </div>
-    </div>
-    <div id="post-footer" class="post-footer main-content-wrap">
-        
-            <div class="post-footer-tags">
-                <span class="text-color-light text-small">标签</span><br/>
-                
-    <a class="tag tag--primary tag--small t-none-link" href="/tags/js/" rel="tag">js</a>
-
             </div>
+            
+                <div class="postShorten-excerpt">
+                    <p>ECMAScript2015 是 js 的一种的新的标准规范，就是对 js 的写法上提出了新的语法要求和写法格式。</p>
+                    
+                        <a
+                            href="/2020/09/14/es6%E6%95%B4%E7%90%86/"
+                            class="postShorten-excerpt_link link"
+                            aria-label=": es6整理"
+                        >
+                            阅读全文
+                        </a>
+                        
+                    
+                </div>
+            
+        </div>
+        
+            <a
+                href="/2020/09/14/es6%E6%95%B4%E7%90%86/"
+                aria-label=": es6整理"
+            >
+                <div class="postShorten-thumbnailimg">
+                    <img alt="" src="https://res.cloudinary.com/ddb5vwne6/image/upload/v1597758372/timg_fy8o3h.jpg"/>
+                </div>
+            </a>
+            
+        
+    </article>
+    
+    <div class="pagination-bar">
+    <ul class="pagination">
         
         
-        
-    </div>
-</article>
+        <li class="pagination-number">第 1 页 共 1 页</li>
+    </ul>
+</div>
+
+</section>
 
 
 
